@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/txtStatus"
-        android:text="Wi-Fi Chat App"
-        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:text="Wi-Fi Chat App"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/txtIPDisplay"
@@ -31,7 +31,7 @@
 
     <EditText
         android:id="@+id/edtIP"
-        android:hint="Enter Server IP"
+        android:hint="Enter Server IP Address"
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginTop="10dp"
