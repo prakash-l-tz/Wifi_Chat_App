@@ -31,7 +31,7 @@
 
     <EditText
         android:id="@+id/edtIP"
-        android:hint="Enter Server IP Address"
+        android:hint="Enter Server IP"
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginTop="10dp"
