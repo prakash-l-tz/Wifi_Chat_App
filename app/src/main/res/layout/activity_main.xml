@@ -4,7 +4,6 @@
     android:padding="16dp"
     android:gravity="center_horizontal"
     android:layout_width="match_parent"
-    android:background="@color/black"
     android:layout_height="match_parent">
 
     <TextView
@@ -27,8 +26,7 @@
         android:id="@+id/btnHost"
         android:text="Start"
         android:layout_width="match_parent"
-        android:textColor="@color/black"
-        android:layout_height="wrap_content" />
+        lllandroid:layout_height="wrap_content" />iooooooooooooo
 
     <EditText
         android:id="@+id/edtIP"
@@ -39,6 +37,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/btnConnect"
+        android:text="Connect to Server"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <Button
         android:id="@+id/btnConnect"
         android:text="Connect to Server"
