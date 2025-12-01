@@ -4,7 +4,6 @@
     android:padding="16dp"
     android:gravity="center_horizontal"
     android:layout_width="match_parent"
-    android:background="#AF9292"
     android:layout_height="match_parent">
 
     <TextView
@@ -45,10 +44,5 @@
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/btnConnect"
-        android:text="Connect to Server"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+
 </LinearLayout>
