@@ -4,6 +4,7 @@
     android:padding="16dp"
     android:gravity="center_horizontal"
     android:layout_width="match_parent"
+    android:background="#AF9292"
     android:layout_height="match_parent">
 
     <TextView
@@ -26,7 +27,8 @@
         android:id="@+id/btnHost"
         android:text="Start"
         android:layout_width="match_parent"
-        lllandroid:layout_height="wrap_content" />
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/edtIP"
